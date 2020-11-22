@@ -1,0 +1,14 @@
+{
+  "name": "myclass-binus",
+  "version": "1.0.0",
+  "description": "Binus Myclass Scraper Bot",
+  "main": "index.js",
+  "repository": "https://github.com/zuramai/binus-myclass-scraper",
+  "author": "zuramai",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^5.5.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.11.1"
+  }
+}

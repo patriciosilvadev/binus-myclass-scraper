@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add puppetteer
+
+PATH: 
+  C:\Users\ahmad\anaconda3\condabin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\laragon\bin\php\php-7.4.8-nts-Win32-vc15-x64;C:\Users\ahmad\AppData\Local\Programs\Python\Python38;C:\Program Files (x86)\Yarn\bin\;C:\Users\ahmad\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\ahmad\AppData\Local\Programs\Python\Python38\Scripts;C:\Users\ahmad\anaconda3\Scripts;C:\Users\ahmad\anaconda3;C:\Users\ahmad\anaconda3\Library\mingw-w64\bin;C:\Users\ahmad\anaconda3\Library\usr\bin;C:\Users\ahmad\anaconda3\Library\bin;C:\Users\ahmad\anaconda3\Scripts;C:\Users\ahmad\.windows-build-tools\python27\;C:\Users\ahmad\AppData\Local\Microsoft\WindowsApps;C:\Users\ahmad\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ahmad\AppData\Roaming\npm;C:\Users\ahmad\AppData\Local\Yarn\bin;C:\Users\ahmad\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\laragon\bin\composer;C:\Program Files (x86)\GitHub CLI\
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/puppetteer: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66096:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140748:22)
+      at Request.emit (events.js:210:5)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141720:10)
+      at Request.emit (events.js:210:5)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141642:12)
+      at Object.onceWrapper (events.js:299:28)
+      at IncomingMessage.emit (events.js:215:7)
+      at endReadableNT (_stream_readable.js:1183:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "myclass-binus",
+    "version": "1.0.0",
+    "description": "Binus Myclass Scraper Bot",
+    "main": "index.js",
+    "repository": "https://github.com/zuramai/binus-myclass-scraper",
+    "author": "zuramai",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
